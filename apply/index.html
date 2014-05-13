@@ -131,6 +131,10 @@ description:
 			
 				<div class="col-md-6 col-lg-6">
 	<div class="checkbox">	
+	<label for="id_action_running_for_office">	
+	<input type="checkbox" id="id_action_running_for_office" name="action_running_for_office" value="true" onclick="$(this).prop('checked') ? $('#running_for_office').slideDown() : $('#running_for_office').slideUp()"/>
+  I am currently running for office<br />
+	</label>
 	<label for="id_action_fundraising">	
 	<input type="checkbox" id="id_action_fundraising" name="action_fundraising" value="true" />
   I have previous fundraising experience (not necessarily with a campaign)<br />
@@ -143,6 +147,12 @@ description:
 				</div>
 				
 			<div class="col-md-6 col-lg-6">
+
+                          <div style="display:none" id="running_for_office">
+                            <p>What office are you running for?</p>
+                            <textarea rows="3" class="form-control" name="action_what_office"></textarea>
+                          </div>
+
 			<p>(Optional) Anything else we should know about you?</p>
 			<textarea rows="5" class="form-control" name="action_other_info"></textarea>
 			</div>
