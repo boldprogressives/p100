@@ -541,6 +541,10 @@ color: #000;
 	border-radius: 0;
 	margin: 10px 0;
 }
+input[type=file] {
+  line-height: 19px;
+  padding-top: 12px;
+}
 
 .thumbnail blockquote{
 	border: none;
