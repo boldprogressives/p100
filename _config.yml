@@ -1,12 +1,4 @@
 trainings:
-  - name: co_may_field
-    date: May 3-4, 2014
-    location: Denver, CO
-    type: Field Training
-  - name: fl_may_fin
-    date: May 10-11, 2014
-    location: Orlando, FL
-    type: Finance Training
   - name: pa_may_fin
     date: May 24-25, 2014
     location: Philadelphia, PA
