@@ -11,10 +11,6 @@ trainings:
     date: June 7-8, 2014
     location: Los Angeles, CA
     type: Field Training
-  - name: co_june_fin
-    date: June 21-22, 2014
-    location: Denver, CO
-    type: Finance Training
   - name: sd_june_field
     date: June 28-29, 2014
     location: South Dakota
