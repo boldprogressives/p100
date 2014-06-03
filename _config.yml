@@ -1,8 +1,4 @@
 trainings:
-  - name: pa_may_fin
-    date: May 24-25, 2014
-    location: Philadelphia, PA
-    type: Finance Training
   - name: me_may_fin
     date: May 30, 2014
     location: Maine
