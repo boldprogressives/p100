@@ -29,67 +29,68 @@ images:
 ---
     
 <div class="welcome">
-    <div class="container">
-		
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="row">
-      	<div class="col-lg-10 col-lg-offset-1">
+  <div class="container">
+    
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
       	
-      	  <!-- end header-->
-      
-      <div class="pull-right"><a href="#contact" data-toggle="modal" data-type="host" class="host btn btn-primary btn-large">Want to host a training?</a></div>
-     
-      	</div>
-      </div>
-      <div class="row">
-      	<div class="col-lg-10 col-lg-offset-1">
-       
-      <div id="hero" class="row">
-        <div id="about" class="col-lg-7 col-md-6">
-        <h2>About the P100</h2>
-        <p>The P100 Training Project is equipping hundreds of campaign staff and candidates around the country with the nuts-and-bolts tools they need to run smart, competent campaigns from Day One. Our trainings use hands-on exercises to make sure folks don't just learn &mdash; but can also <em>do</em>. </p>
-<p>
-P100 graduates work on progressive campaigns locally and nationally, and stay connected to their fellow organizers through our innovative alumni program. We're building an army to change who holds power. 
-</p>
-<p>
-We're looking for folks who want to change the world. Are you one of them?</p>
-        <p class="p100_actions">
-        <a href="{{ site.root_url }}/apply/" class="btn btn-primary btn-large">Apply Today</a>
-        <a href="#contact" data-toggle="modal" data-type="hire-grad" class="btn btn-primary btn-large">Hire a Grad</a>
-        </p>
-        </div>
-        <div id="upcoming" class="col-lg-5 col-md-6">
-        <h2>Upcoming Trainings</h2>
+      	<!-- end header-->
         
-        <ul>	
-          {% for training in site.trainings %}
-          <li><a href="{{ site.root_url }}/apply/?action_session={{ training.name }}"><h4 class="training_date">{{ training.date }}</h4>
-						<p class="training_location">{{ training.location }}</p>
-						<p class="training_type">{{ training.type }}</p></a>
-					</li>
-					{% endfor %}
-        </ul>
+        <div class="pull-right"><a href="#contact" data-toggle="modal" data-type="host" class="host btn btn-primary btn-large">Want to host a training?</a></div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        
+        <div id="hero" class="row">
+          <div id="about" class="col-lg-7 col-md-6">
+            <h2>About the P100</h2>
+            <p>The P100 Training Project is equipping hundreds of campaign staff and candidates around the country with the nuts-and-bolts tools they need to run smart, competent campaigns from Day One. Our trainings use hands-on exercises to make sure folks don't just learn &mdash; but can also <em>do</em>. </p>
+            <p>
+              P100 graduates work on progressive campaigns locally and nationally, and stay connected to their fellow organizers through our innovative alumni program. We're building an army to change who holds power. 
+            </p>
+            <p>
+              We're looking for folks who want to change the world. Are you one of them?</p>
+            <p class="p100_actions">
+              <a href="{{ site.root_url }}/apply/" class="btn btn-primary btn-large">Apply Today</a>
+              <a href="#contact" data-toggle="modal" data-type="hire-grad" class="btn btn-primary btn-large">Hire a Grad</a>
+            </p>
+          </div>
+          <div id="upcoming" class="col-lg-5 col-md-6">
+            <h2>Upcoming Trainings</h2>
+            
+            <ul>	
+              {% for training in site.trainings %}
+              <li><a href="{{ site.root_url }}/apply/?action_session={{ training.name }}"><h4 class="training_date">{{ training.date }}</h4>
+		  <p class="training_location">{{ training.location }}</p>
+		  <p class="training_type">{{ training.type }}</p></a>
+	      </li>
+	      {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
-      </div>
-      </div>
-   
-</div>
-</div>
-<div class="container">
-<div id="photo_grid" class="row">
-  {% for image in page.images %}
-  <div class="col-lg-4 col-md-4 col-sm-12">
-    <div class="thumbnail">
-      <img src="{{ site.root_url }}{{ image.src }}" alt="{{ image.alt }}" />
-      {% if image.desc %}
-      <blockquote>
-        <p>{{ image.desc }}</p>
-        <footer>{{ image.foot }}</footer>
-      </blockquote>       
-      {% endif %}
     </div>
+    
   </div>
-  {% endfor %}
 </div>
+
+<div class="container">
+  <div id="photo_grid" class="row">
+    {% for image in page.images %}
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="thumbnail">
+        <img src="{{ site.root_url }}{{ image.src }}" alt="{{ image.alt }}" />
+        {% if image.desc %}
+        <blockquote>
+          <p>{{ image.desc }}</p>
+          <footer>{{ image.foot }}</footer>
+        </blockquote>       
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
