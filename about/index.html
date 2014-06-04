@@ -1,6 +1,20 @@
 ---
 layout: base
 description:
+trainers:
+ - name: Kayla Wingbermuehle
+   image_file: kayla.jpg
+   title: Field Trainer
+   bio: Kayla began her professional political career as an Associate at Hilltop Public Solutions, a national political consulting firm. There, she worked on a variety of races and initiatives in Colorado, Missouri, Washington and California. She has managed a San Diego City Council race in San Diego and was the Field Director for Lori Saldana&rsquo;s 2012 campaign in California&rsquo;s 52nd Congressional District, which ran the most cost-effective primary field program in the state. Kayla has been with the PCCC for 2 years, working with dozens of campaigns and candidates to build and support grassroots field operations. She currently lives in St. Louis, Missouri. 
+ - name: Sarah Badawi
+   image_file: sarah.jpg
+   title: Finance Trainer
+   bio: Sarah joins the P100 training project with experience in both nonprofit and campaign fundraising. Most recently, she served as the Development Director of an organization focused on campaign finance reform, and in 2012, she was an integral member of the finance team for Elizabeth Warren&rsquo;s successful campaign for the U.S. Senate. Sarah received her B.A. in political science from the University of Florida and a law degree from George Washington University.	
+ - name: Selene Hofer-Shall
+   image_file: selene.jpg
+   title: Finance Trainer
+   bio: Selene Hofer-Shall is the managing partner of Theseus Advisors, LLC, a Democratic consulting firm based in Burlington, Vermont founded in 2008. After years working as a crisis counselor for adolescents with behavioral and psychiatric disorders, Selene got involved in local politics in Burlington, VT, volunteering on a number of local city council and state house races. She joined the Operations Team of Vermont Governor Howard Dean's Presidential campaign in 2003, helping to compile the largest FEC reports in Presidential Campaign History. Selene was one of the founding staffers of Democracy for America, working as Operations Director and assistant to the Finance Director. She then went on to work on numerous successful campaigns from city council to United States Congress, breaking fundraising records in races for Congress, Governor and State Treasurer.  Selene works with campaigns, organizations and state Democratic parties across the country to train staff and candidates in the science and art of campaign budgeting, finance and fundraising. Selene has a passion for grassroots fundraising, and believes that fear of fundraising should never prevent a qualified candidate from running for office. Selene specializes in political operations and financial compliance.
+
 ---
 
 <div id="about_p100" class="content_area">
@@ -34,50 +48,26 @@ description:
 
 	  <h2>Our Trainers</h2>
 
+          {% for trainer in page.trainers %}
 	  <div class="trainer row">
 	    <div class="trainer_photo col-lg-4 col-md-4 col-sm-6">
-	      <div class="thumbnail"><img src="{{ site.root_url}}/img/trainers/kayla.jpg" alt="Photo of Kayla Wingbermuehle" /></div>
+	      <div class="thumbnail">
+                <img src="{{ site.root_url}}/img/trainers/{{ trainer.image_file }}" 
+                     alt="Photo of {{ trainer.name }}" />
+              </div>
 	    </div>
 	    
 	    <div class="trainer_bio col-lg-8 col-md-8 col-sm-6">
-	      <h3 class="trainer_name">Kayla Wingbermuehle</h3>
-	      <p class="trainer_title">Field Trainer</p>
+	      <h3 class="trainer_name">{{ trainer.name }}</h3>
+	      <p class="trainer_title">{{ trainer.title }}</p>
 
 	      <p class="trainer_bio_text">
-		Kayla began her professional political career as an Associate at Hilltop Public Solutions, a national political consulting firm. There, she worked on a variety of races and initiatives in Colorado, Missouri, Washington and California. She has managed a San Diego City Council race in San Diego and was the Field Director for Lori Saldana&rsquo;s 2012 campaign in California&rsquo;s 52nd Congressional District, which ran the most cost-effective primary field program in the state. Kayla has been with the PCCC for 2 years, working with dozens of campaigns and candidates to build and support grassroots field operations. She currently lives in St. Louis, Missouri. 
+                {{ trainer.bio }}
 	      </p>
 	    </div>
 	  </div>
+          {% endfor %}
 
-	  <div class="trainer row">
-	    <div class="trainer_photo col-lg-4 col-md-4 col-sm-6">
-	      <div class="thumbnail"><img src="{{ site.root_url}}/img/trainers/sarah.jpg" alt="Photo of Sarah Badawi" /></div>
-	    </div>
-	    
-	    <div class="trainer_bio col-lg-8 col-md-8 col-sm-6">
-	      <h3 class="trainer_name">Sarah Badawi</h3>
-	      <p class="trainer_title">Finance Trainer</p>
-
-	      <p class="trainer_bio_text">
-		Sarah joins the P100 training project with experience in both nonprofit and campaign fundraising. Most recently, she served as the Development Director of an organization focused on campaign finance reform, and in 2012, she was an integral member of the finance team for Elizabeth Warren&rsquo;s successful campaign for the U.S. Senate. Sarah received her B.A. in political science from the University of Florida and a law degree from George Washington University. 			
-	      </p>
-	    </div>
-	  </div>
-
-
-          <div class="trainer row">
-	    <div class="trainer_photo col-lg-4 col-md-4 col-sm-6">
-	      <div class="thumbnail"><img src="{{ site.root_url }}/img/trainers/selene.jpg" alt="Photo of Selene Hofer-Shall" /></div>
-	    </div>
-	    
-	    <div class="trainer_bio col-lg-8 col-md-8 col-sm-6">
-	      <h3 class="trainer_name">Selene Hofer-Shall </h3>
-	      <p class="trainer_title">Finance Trainer</p>
-              
-	      <p class="trainer_bio_text">Selene Hofer-Shall is the managing partner of Theseus Advisors, LLC, a Democratic consulting firm based in Burlington, Vermont founded in 2008. After years working as a crisis counselor for adolescents with behavioral and psychiatric disorders, Selene got involved in local politics in Burlington, VT, volunteering on a number of local city council and state house races. She joined the Operations Team of Vermont Governor Howard Dean's Presidential campaign in 2003, helping to compile the largest FEC reports in Presidential Campaign History. Selene was one of the founding staffers of Democracy for America, working as Operations Director and assistant to the Finance Director. She then went on to work on numerous successful campaigns from city council to United States Congress, breaking fundraising records in races for Congress, Governor and State Treasurer.  Selene works with campaigns, organizations and state Democratic parties across the country to train staff and candidates in the science and art of campaign budgeting, finance and fundraising. Selene has a passion for grassroots fundraising, and believes that fear of fundraising should never prevent a qualified candidate from running for office. Selene specializes in political operations and financial compliance.</p>
-            </div>
-	  </div>
-        
       	</div>
       </div>
     </div>
