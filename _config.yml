@@ -1,8 +1,4 @@
 trainings:
-  - name: me_may_fin
-    date: May 30, 2014
-    location: Maine
-    type: Finance Training
   - name: ca_june_field
     date: June 7-8, 2014
     location: Los Angeles, CA
