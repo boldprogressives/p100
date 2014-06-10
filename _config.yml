@@ -5,6 +5,6 @@ trainings:
     type: Field Training
   - name: me_july_field
     date: July 12-13, 2014
-    location: Maine
+    location: Portland, Maine
     type: Field Training
 markdown: kramdown
