@@ -1,8 +1,4 @@
 trainings:
-  - name: ca_june_field
-    date: June 7-8, 2014
-    location: Los Angeles, CA
-    type: Field Training
   - name: sd_june_field
     date: June 28-29, 2014
     location: South Dakota
