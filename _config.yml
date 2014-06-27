@@ -3,4 +3,7 @@ trainings:
     date: July 12-13, 2014
     location: Portland, Maine
     type: Field Training
+  - name: sd_july_field
+    date: July 2014
+    location: Sioux Falls, South Dakota
 markdown: kramdown
