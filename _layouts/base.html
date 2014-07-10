@@ -69,6 +69,14 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 <script src="{{ site.root_url }}/js/pccc-ak-async-post.js"></script>
 <script src="{{ site.root_url }}/js/forms.js"></script>
 
+<script type="text/javascript">
+$(window).load(function() {
+  if( window.location.hash === "#hire-a-grad" ) {
+    $("a.btn[data-toggle=modal][data-type=hire-grad]:first").click();
+  }
+});
+</script>
+
 <script>
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
