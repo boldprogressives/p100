@@ -71,8 +71,10 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
 
 <script type="text/javascript">
 $(window).load(function() {
-  if( window.location.hash === "#hire-a-grad" ) {
-    $("a.btn[data-toggle=modal][data-type=hire-grad]:first").click();
+  var args = getArgs();
+  var contactType = args["contact"];
+  if( contactType ) {
+    $("<a href='#contact' data-toggle='modal' data-type='"+contactType+"' class='btn btn-primary btn-large'>").hide().appendTo("body").click();
   }
 });
 </script>
