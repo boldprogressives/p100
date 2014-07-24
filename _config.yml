@@ -1,8 +1,4 @@
 trainings:
-  - name: me_july_field
-    date: July 12-13, 2014
-    location: Portland, Maine
-    type: Field Training
   - name: sd_july_field
     date: August 9-10, 2014
     location: Sioux Falls, South Dakota
