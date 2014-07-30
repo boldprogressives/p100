@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+
+  <head>
+    <title>
+      LaceyP100.jpg on Ticket #1044 – Attachment
+     – PCCC Help Desk
+    </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if IE]><script type="text/javascript">
+      if (/^#__msie303:/.test(window.location.hash))
+        window.location.replace(window.location.hash.replace(/^#__msie303:/, '#'));
+    </script><![endif]-->
+          <link rel="search" href="/helpdesk/search" />
+          <link rel="help" href="/helpdesk/wiki/TracGuide" />
+          <link rel="alternate" href="/helpdesk/attachment/ticket/1044/LaceyP100.jpg?format=txt" type="image/jpeg; charset=utf-8" title="Plain Text" />
+          <link rel="alternate" href="/helpdesk/raw-attachment/ticket/1044/LaceyP100.jpg" type="image/jpeg; charset=utf-8" title="Original Format" />
+          <link rel="up" href="/helpdesk/ticket/1044" title="Ticket #1044" />
+          <link rel="start" href="/helpdesk/wiki" />
+          <link rel="stylesheet" href="/helpdesk/chrome/common/css/trac.css" type="text/css" />
+          <link rel="stylesheet" href="/helpdesk/chrome/common/css/code.css" type="text/css" />
+          <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" type="text/css" />
+          <link rel="stylesheet" href="//trac.pccc.co/helpdesk/raw-attachment/wiki/Attachments/trac-theme-v0.3.css" type="text/css" />
+          <link rel="stylesheet" href="/helpdesk/lightertheme/theme.css" type="text/css" />
+          <link rel="stylesheet" href="/helpdesk/chrome/userpictures/userpictures.css" type="text/css" />
+          <link rel="stylesheet" href="/helpdesk/chrome/site/foldable_wiki_sections.css" type="text/css" />
+          <link rel="shortcut icon" href="/helpdesk/chrome/common/trac.ico" type="image/x-icon" />
+          <link rel="icon" href="/helpdesk/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/helpdesk/search/opensearch" title="Search PCCC Help Desk" />
+      <script type="text/javascript" charset="utf-8" src="/helpdesk/chrome/common/js/jquery.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/helpdesk/chrome/common/js/babel.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/helpdesk/chrome/common/js/trac.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/helpdesk/chrome/common/js/search.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/helpdesk/chrome/site/foldable_wiki_sections.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".trac-autofocus").focus();
+        $(".trac-target-new").attr("target", "_blank");
+        if ($.ui) { /* is jquery-ui added? */
+          $(".trac-datepicker").datepicker();
+          $(".trac-datetimepicker").datetimepicker();
+        }
+        $(".trac-disable").disableSubmit(".trac-disable-determinant");
+        setTimeout(function() { $(".trac-scroll").scrollToTop() }, 1);
+        $(".trac-disable-on-submit").disableOnSubmit();
+      });
+    </script>
+      <script type="text/javascript" src="/helpdesk/chrome/common/js/folding.js"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $('#preview table.code').enableCollapsibleColumns($('#preview table.code thead th.content'));
+        });
+      </script>
+  </head>
+  <body>
+    <div class="banner_wrapper banner_wrapper_first"><div id="banner">
+      <div id="header">
+        <a id="logo" href="/staff"><img src="https://s3.amazonaws.com/s3.boldprogressives.org/images/login-logo.jpg" alt="BoldProgressives.org" height="50" /></a>
+      </div>
+      <form id="search" action="/helpdesk/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first">logged in as maxbittman</li><li><form action="/helpdesk/logout" class="trac-logout" id="logout" method="post"><div><input type="hidden" name="__FORM_TOKEN" value="6eb6b177e72edb8938c42ff6" /></div><div><button type="submit" name="logout">Logout</button></div></form></li><li><a href="/helpdesk/prefs">Preferences</a></li><li><a href="/helpdesk/wiki/TracGuide">Help/Guide</a></li><li><a href="/helpdesk/about">About Trac</a></li><li><a href="/helpdesk/notification" title="Wiki Pages Change Notifications">My Notifications</a></li><li class="last"><a href="/helpdesk/rpc">API</a></li>
+    </ul>
+  </div>
+    </div><hr /></div>
+    <div class="banner_wrapper banner_wrapper_second"><div id="mainnav" class="nav">
+    <ul>
+      <li class="first"><a href="/helpdesk/wiki">Wiki</a></li><li><a href="/helpdesk/timeline">Timeline</a></li><li><a href="/helpdesk/roadmap">Roadmap</a></li><li><a href="/helpdesk/report">View Tickets</a></li><li><a href="/helpdesk/newticket">New Ticket</a></li><li><a href="/helpdesk/search">Search</a></li><li class="last"><a href="/helpdesk/admin" title="Administration">Admin</a></li>
+    </ul>
+  </div></div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+        <ul>
+          <li class="last first"><a href="/helpdesk/ticket/1044">Back to Ticket #1044</a></li>
+        </ul>
+        <hr />
+      </div>
+    <div id="content" class="attachment">
+        <h1><a href="/helpdesk/ticket/1044">Ticket #1044</a>: LaceyP100.jpg</h1>
+        <table id="info" summary="Description">
+          <tbody>
+            <tr>
+              <th scope="col"><img height="40" width="40" src="/helpdesk/chrome/userpictures/default-portrait.gif" class="userpictures_avatar attachment-view" />File LaceyP100.jpg,
+                <span title="437142 bytes">426.9 KB</span>
+                (added by <span class="trac-author">taylorputz</span>, <a class="timeline" href="/helpdesk/timeline?from=2014-07-07T20%3A52%3A30Z&amp;precision=second" title="See timeline at Jul 7, 2014, 8:52:30 PM">3 weeks ago</a>)</th>
+            </tr>
+            <tr>
+              <td class="message searchable">
+                
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="preview" class="searchable">
+          
+  <div class="image-file"><img src="/helpdesk/raw-attachment/ticket/1044/LaceyP100.jpg" alt="LaceyP100.jpg" /></div>
+
+        </div>
+          <div class="buttons">
+            <form method="get" action="">
+              <div id="delete">
+                <input type="hidden" name="action" value="delete" />
+                <input type="submit" value="Delete attachment" />
+              </div>
+            </form>
+          </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="first">
+          <a rel="nofollow" href="/helpdesk/attachment/ticket/1044/LaceyP100.jpg?format=txt">Plain Text</a>
+        </li><li class="last">
+          <a rel="nofollow" href="/helpdesk/raw-attachment/ticket/1044/LaceyP100.jpg">Original Format</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/helpdesk/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">Powered by <a href="/helpdesk/about"><strong>Trac 1.1.1dev</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.</p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  </body>
+</html>
