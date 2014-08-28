@@ -1,6 +1,6 @@
 trainings:
   - name: finance_chicago
     date: September 20-21 2104
-    location: Chicago
+    location: Chicago, IL
     type: Finance Training
 markdown: kramdown
