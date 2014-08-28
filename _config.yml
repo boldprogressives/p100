@@ -1,6 +1,6 @@
 trainings:
-  - name: coming_soon
-    date: 2015 schedule to be announced soon
-    location: Apply today to be notified first!
-    type: Field Training
+  - name: finance_chicago
+    date: September 20-21 2104
+    location: Chicago
+    type: Finance Training
 markdown: kramdown

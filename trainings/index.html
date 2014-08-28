@@ -34,8 +34,6 @@ description:
           <ul class="training_list clearfix row">  
             <h4> 2015 schedule to be announced soon -- apply today to be notified first! </h4>
             {% for training in site.trainings %}
-            <!--
-            Uncomment when you want to add a trainings
             <li class="col-lg-3 col-md-4 col-sm-6">
               <a href="{{ site.root_url }}/apply/?action_session={{ training.name }}">
                 <h4 class="training_date">{{ training.date }}</h4>
@@ -43,7 +41,6 @@ description:
                 <p class="training_type">{{ training.type}}</p>
               </a>
             </li>
-            -->
             {% endfor %}  
           </ul>
         </div>
