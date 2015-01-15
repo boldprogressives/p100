@@ -60,14 +60,13 @@ images:
           </div>
           <div id="upcoming" class="col-lg-5 col-md-6">
             <h2>Upcoming Trainings</h2>
-            <h4>2015 schedule to be announced soon -- apply today to be notified first!</h4>
             <ul>	
               {% for training in site.trainings %}
               <li><a href="{{ site.root_url }}/apply/?action_session={{ training.name }}"><h4 class="training_date">{{ training.date }}</h4>
-		  <p class="training_location">{{ training.location }}</p>
-		  <p class="training_type">{{ training.type }}</p></a>
-        </li>
-	      {% endfor %}
+                <p class="training_location">{{ training.location }}</p>
+                <p class="training_type">{{ training.type }}</p></a>
+              </li>
+              {% endfor %}
             </ul>
           </div>
         </div>
