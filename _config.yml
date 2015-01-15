@@ -1,6 +1,6 @@
 trainings:
-  name: pa_media
-  date: Feb. 6, 1-5pm 2105
-  location: PA Progressive Summit
-  type: Media Training
+  - name: pa_media
+    date: Feb. 6, 1-5pm 2105
+    location: PA Progressive Summit
+    type: Media Training
 markdown: kramdown
