@@ -1,6 +1,10 @@
 trainings:
-  - name: pa_media
-    date: Feb. 6, 1-5pm 2015
-    location: PA Progressive Summit
-    type: Media Training
+  - name: netroots_2015
+    date: July 16-19, 2015
+    location: Netroots Nation
+    type: Field, Finance, and Media Trainings
+  - name: nct_august_2015
+    date: July 30 - Aug. 2, 2015
+    location: Washington, DC
+    type: Inaugural National Candidate Training
 markdown: kramdown
