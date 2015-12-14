@@ -1,10 +1,10 @@
 trainings:
-  - name: netroots_2015
-    date: July 16-19, 2015
-    location: Netroots Nation
-    type: Field, Finance, and Media Trainings
-  - name: nct_august_2015
-    date: July 30 - Aug. 2, 2015
-    location: Washington, DC
-    type: Inaugural National Candidate Training
+  - name: pa_progressive_summit_field_feb_2016
+    date: Feb. 19, 2016
+    location: Harrisburg, PA
+    type: Field Training at the PA Progressive Summit
+  - name: pa_progressive_summit_finance_feb_2016
+    date: Feb. 19, 2016
+    location: Harrisburg, PA
+    type: Finance Training at the PA Progressive Summit
 markdown: kramdown
